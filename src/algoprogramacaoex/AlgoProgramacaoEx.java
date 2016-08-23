@@ -33,10 +33,8 @@ public class AlgoProgramacaoEx {
 
             if (array[i] % 2 == 0) {
                 System.out.println("Par: " + (aux[i] = 0));
-
             } else {
                 aux[i] = 0;
-
                 System.out.println("Impar: " + (aux[i] = 1));
             }
         }
