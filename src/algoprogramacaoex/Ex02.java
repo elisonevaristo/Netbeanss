@@ -18,9 +18,9 @@ public class Ex02 {
 
     static int menorValor(int[] vetor) {
 
-        int menor = vetor[1];
+        int menor = vetor[0];
 
-        for (int i = 0; i < vetor.length; i++) {
+        for (int i = 1; i < vetor.length; i++) {
             if (vetor[i] < menor) {
                 menor = vetor[i];
             }
